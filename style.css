@@ -8,34 +8,43 @@ body{
     justify-content:space-evenly;
     padding:0;
     }
+
     nav li:hover{
-        background-color:green;
-        color:black;
-        font-size:18px;
-    }
+    background-color:rgb(115, 115, 151);
+    color:rgb(51, 51, 80);
+    font-size:18px;
+     }
     
     header{
-        background-color:greenyellow;
+        background-color:blue;
         padding:8px 0;
     }
-    
+    li{
+        background-color:turquoise;
+        padding:2px;
+        border-radius:8px;
+    }
     nav-a:link{
-        text-decoration:none;
+        text-decoration:paleturquoise;
         color:black;
     }
     nav a:visited{
         color:red;
     }
-    
-    
     h6{
         text-align: center;
         font-size:28px;
     }
     
+    nav li-houver{
+    background-color:paleturquoise;
+    color:black;
+    font-size:150px;
+    }
+    
     
     div{
-        background-color:green;
+        background-color:paleturquoise;
     }
     article{
        display: flex;
